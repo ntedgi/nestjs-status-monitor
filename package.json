@@ -1,14 +1,14 @@
 {
-  "name": "@luongnv/nestjs-status-monitor",
+  "name": "@ntedgi/nestjs-status-monitor",
   "version": "1.0.5",
   "description": "Realtime Monitoring for Express-based NestJS applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luongnv1511/nestjs-status-monitor.git"
+    "url": "git+https://github.com/ntedgi/nestjs-status-monitor.git"
   },
-  "author": "luongnv1511",
+  "author": "ntedgi",
   "license": "MIT",
   "keywords": [
     "nestjs",
