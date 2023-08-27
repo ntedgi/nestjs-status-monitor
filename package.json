@@ -23,7 +23,7 @@
     "@nestjs/platform-socket.io": "^9.4.3",
     "@nestjs/testing": "^9.4.3",
     "@types/jest": "^26.0.20",
-    "@types/node": "^18.0.0",
+    "@types/node": "^20.5.6",
     "@types/supertest": "^2.0.10",
     "coveralls": "^3.1.0",
     "jest": "^26.6.3",
