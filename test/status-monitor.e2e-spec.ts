@@ -71,7 +71,7 @@ describe('Status Monitor Module (e2e)', () => {
 
     app = moduleRef.createNestApplication();
     await app.init();
-    await app.listenAsync(3000);
+    await app.listen(3000);
     gateway = app.get<StatusMonitorGateway>(StatusMonitorGateway);
   });
 
