@@ -1,0 +1,16 @@
+version: 2
+updates:
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    labels:
+      - version-update
+
+  - package-ecosystem: "npm"
+    directory: "/examples/integrate-status-monitor"
+    schedule:
+      interval: "monthly"
+    labels:
+      - version-update
