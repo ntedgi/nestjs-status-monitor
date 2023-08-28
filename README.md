@@ -1,4 +1,11 @@
-# @ntedgi/nestjs-status-monitor
+# @ntlib/status-monitor-nestjs
+
+Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for NestJS v7+ based servers.
+
+```sh 
+$ npm i @ntlib/status-monitor-nestjs
+```
+
 
 ### NodeJS and Nest Compatibility Matrix.
 
@@ -7,16 +14,14 @@
 | ^18.x        | ^9.x         |
 
 
-[![NPM](https://nodei.co/npm/@ntedgi/nestjs-status-monitor.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@ntedgi/nestjs-status-monitor/)
 
-Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for NestJS v7+ based servers.
 
 ![Status monitor page](https://raw.githubusercontent.com/ntedgi/nestjs-status-monitor/main/assets/demo.gif?token=GHSAT0AAAAAACGYTHRFFTOGCQG3TJ6GCYSSZHMWXJQ)
 
 
 ## Installation & setup NestJS 
 
-1. Run `npm install nestjs-status-monitor --save`
+1. Run `npm install @ntlib/status-monitor-nestjs --save`
 2. Setup module import:
 
 ```javascript

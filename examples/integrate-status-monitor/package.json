@@ -1,5 +1,5 @@
 {
-  "name": "@ntedgi/nestjs-status-monitor",
+  "name": "@ntlib/status-monitor-nestjs-example",
   "version": "1.0.0",
   "description": "Example how to use status monitor module",
   "main": "dist/main.js",
@@ -71,10 +71,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luongnv1511/nestjs-status-monitor.git"
+    "url": "git+https://github.com/ntedgi/nestjs-status-monitor.git"
   },
   "bugs": {
-    "url": "https://github.com/luongnv1511/nestjs-status-monitor/issues"
+    "url": "https://github.com/ntedgi/nestjs-status-monitor/issues"
   },
-  "homepage": "https://github.com/luongnv1511/nestjs-status-monitor#readme"
+  "homepage": "https://github.com/ntedgi/nestjs-status-monitor#readme"
 }
