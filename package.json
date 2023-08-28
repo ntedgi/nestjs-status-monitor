@@ -1,5 +1,5 @@
 {
-  "name": "@ntedgi/nestjs-status-monitor",
+  "name": "status-monitor-nestjs",
   "version": "1.0.0",
   "description": "Realtime Monitoring for Express-based NestJS applications",
   "main": "dist/index.js",
