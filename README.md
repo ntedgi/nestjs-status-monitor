@@ -1,4 +1,4 @@
-# nestjs-status-monitor
+# @ntedgi/nestjs-status-monitor
 
 ### NodeJS and Nest Compatibility Matrix.
 
@@ -7,13 +7,11 @@
 | ^18.x        | ^9.x         |
 
 
-[![NPM](https://nodei.co/npm/nestjs-status-monitor.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nestjs-status-monitor/)
-
-
+[![NPM](https://nodei.co/npm/@ntedgi/nestjs-status-monitor.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@ntedgi/nestjs-status-monitor/)
 
 Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for NestJS v7+ based servers.
 
-![Status monitor page](https://i.imgur.com/1xlO8lM.gif "Status monitor page")
+![Status monitor page](./assets/demo.gif "Status monitor page")
 
 
 ## Installation & setup NestJS 

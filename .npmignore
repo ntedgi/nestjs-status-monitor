@@ -7,7 +7,7 @@
 .codacy.yml
 Procfile
 
-
+assets
 tsconfig.json
 *.ts
 !*.d.ts
