@@ -11,7 +11,7 @@
 
 Simple, self-hosted module based on Socket.io and Chart.js to report realtime server metrics for NestJS v7+ based servers.
 
-![Status monitor page](https://raw.githubusercontent.com/ntedgi/nestjs-status-monitor/main/assets/demo.gif?token=GHSAT0AAAAAACGYTHRFFTOGCQG3TJ6GCYSSZHMWXJQ) "Status monitor page")
+![Status monitor page](https://raw.githubusercontent.com/ntedgi/nestjs-status-monitor/main/assets/demo.gif?token=GHSAT0AAAAAACGYTHRFFTOGCQG3TJ6GCYSSZHMWXJQ)
 
 
 ## Installation & setup NestJS 
