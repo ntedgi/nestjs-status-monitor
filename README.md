@@ -1,5 +1,12 @@
 # nestjs-status-monitor
 
+### NodeJS and Nest Compatibility Matrix.
+
+| Node Version | Nest Version |
+|--------------|--------------|
+| ^18.x        | ^9.x         |
+
+
 [![NPM](https://nodei.co/npm/nestjs-status-monitor.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/nestjs-status-monitor/)
 
 
@@ -9,7 +16,7 @@ Simple, self-hosted module based on Socket.io and Chart.js to report realtime se
 ![Status monitor page](https://i.imgur.com/1xlO8lM.gif "Status monitor page")
 
 
-## Installation & setup NestJS v9
+## Installation & setup NestJS 
 
 1. Run `npm install nestjs-status-monitor --save`
 2. Setup module import:

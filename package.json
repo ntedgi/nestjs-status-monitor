@@ -1,6 +1,6 @@
 {
   "name": "@ntedgi/nestjs-status-monitor",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Realtime Monitoring for Express-based NestJS applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -51,8 +51,7 @@
     "start:dev": "tsc --watch --declaration",
     "build": "rm -rf ./dist && tsc",
     "format": "prettier src/**/*.ts --ignore-path ./.prettierignore",
-    "prepare": "npm run format && npm run build",
-    "heroku-postbuild": "npm run build && cd ./examples/integrate-status-monitor && npm ci && npm run build"
+    "prepare": "npm run format && npm run build"
   },
   "jest": {
     "moduleFileExtensions": [
