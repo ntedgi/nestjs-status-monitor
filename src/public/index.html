@@ -14,6 +14,30 @@
         <b>{{title}}</b>
         <div id="span-controls" class="span-controls"></div>
       </div>
+      <div class="container statusCodes">
+        <div class="stats-column">
+          <h5>Status Codes</h5>
+          <h6 class="status-code status-code-2xx">2xx</h6>
+          <h6 class="status-code status-code-3xx">3xx</h6>
+          <h6 class="status-code status-code-4xx">4xx</h6>
+          <h6 class="status-code status-code-5xx">5xx</h6>
+        </div>
+        <div class="chart-container">
+          <canvas id="statusCodesChart" width="200" height="100"></canvas>
+        </div>
+      </div>
+      <div class="container healthChecks">
+        {{#each healthCheckResults}}
+        <div class="health-check-row">
+          <div class="health-check-title-column">
+            <h5><a href="{{path}}">{{path}}</a></h5>
+          </div>
+          <div class="health-check-status-container {{status}}">
+            <h1>{{status}}</h1>
+          </div>
+        </div>
+        {{/each}}
+      </div>
       <div class="container cpu">
         <div class="stats-column">
           <h5>CPU Usage</h5>
@@ -76,30 +100,6 @@
         <div class="chart-container">
           <canvas id="rpsChart" width="200" height="100"></canvas>
         </div>
-      </div>
-      <div class="container statusCodes">
-        <div class="stats-column">
-          <h5>Status Codes</h5>
-          <h6 class="status-code status-code-2xx">2xx</h6>
-          <h6 class="status-code status-code-3xx">3xx</h6>
-          <h6 class="status-code status-code-4xx">4xx</h6>
-          <h6 class="status-code status-code-5xx">5xx</h6>
-        </div>
-        <div class="chart-container">
-          <canvas id="statusCodesChart" width="200" height="100"></canvas>
-        </div>
-      </div>
-      <div class="container healthChecks">
-        {{#each healthCheckResults}}
-        <div class="health-check-row">
-          <div class="health-check-title-column">
-            <h5><a href="{{path}}">{{path}}</a></h5>
-          </div>
-          <div class="health-check-status-container {{status}}">
-            <h1>{{status}}</h1>
-          </div>
-        </div>
-        {{/each}}
       </div>
     </div>
     <script>

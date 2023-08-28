@@ -1,1 +1,0 @@
-web: node ./examples/integrate-status-monitor/dist/main.js
