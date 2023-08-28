@@ -1,7 +1,7 @@
 {
   "name": "@ntlib/status-monitor-nestjs",
-  "version": "1.0.2",
-  "description": "Realtime Monitoring for Express-based NestJS applications",
+  "version": "1.0.3",
+  "description": "Realtime Monitoring for Express-based NestJS V9+ Apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
