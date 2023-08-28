@@ -42,21 +42,21 @@ Default config:
 
 ```javascript
 {
-  title: 'NestJS Status', // Default title
+  title: 'NestJS Status',
   path: '/status',
-  socketPath: '/socket.io', // In case you use a custom path
-  port: null, // Defaults to NestJS port
+  socketPath: '/socket.io',
+  port: null, 
   spans: [
     {
-      interval: 1, // Every second
-      retention: 60, // Keep 60 datapoints in memory
+      interval: 1, 
+      retention: 60, 
     },
     {
-      interval: 5, // Every 5 seconds
+      interval: 5,
       retention: 60,
     },
     {
-      interval: 15, // Every 15 seconds
+      interval: 15, 
       retention: 60,
     },
   ],
@@ -70,7 +70,7 @@ Default config:
     rps: true,
     statusCodes: true,
   },
-  ignoreStartsWith: ['/admin'], // paths to ignore for responseTime stats
+  ignoreStartsWith: ['/admin'],
   healthChecks: [],
 }
 ```
